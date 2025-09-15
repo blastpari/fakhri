@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <title>Galeri Saya</title>
+    <style>
+        body {
+            margin: 0; padding: 0;
+            font-family: Arial, sans-serif;
+            background: url("bakground 2.jpg") no-repeat center center fixed;
+            background-size: cover;
+        }
+        .navbar {
+            background: rgba(44, 62, 80, 0.9);
+            padding: 15px;
+            text-align: left;
+        }
+        .navbar a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+            font-weight: bold;
+            transition: 0.3s;
+        }
+        .navbar a:hover { color: #1abc9c; }
+        .container {
+            padding: 30px;
+            text-align: center;
+            background: rgba(255,255,255,0.8);
+            margin: 40px auto;
+            border-radius: 15px;
+            width: 80%;
+        }
+        h2 { color: #2c3e50; }
+        .gallery {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 15px;
+            margin-top: 20px;
+        }
+        .gallery img {
+            width: 200px;
+            height: 150px;
+            object-fit: cover;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+            transition: transform 0.3s;
+        }
+        .gallery img:hover { transform: scale(1.1); }
+    </style>
+</head>
+<body>
+    <div class="navbar">
+        <a href="home.html">Home</a>
+        <a href="biodata.html">Biodata</a>
+        <a href="hobi.html">Hobi</a>
+        <a href="galeri.html">Galeri</a>
+    </div>
+
+    <div class="container">
+        <h2>Galeri Foto</h2>
+        <div class="gallery">
+            <img src="new.jpg" alt="Foto">
+            <img src="new 2.jpg" alt="Foto">
+            <img src="new 3.jpg" alt="Foto">
+        </div>
+    </div>
+</body>
+</html>
